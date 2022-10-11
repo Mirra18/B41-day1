@@ -1,0 +1,54 @@
+.{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+}
+
+nav{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: cornflowerblue; 
+}
+nav ul {
+   display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li {
+    margin-right: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav ul li img {
+    width: 75px;
+border-radius: 75px;
+}
+
+.nav-left{
+    background-color: lightcoral;
+    flex: 50%;
+}
+
+.nav-right{
+    background-color: lightslategray;
+    flex: 50%;
+}
+.nav-right a {
+    background-color: rgb(228, 183, 198);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.card-left{
+    flex: 40%;
+}
+
+.card-right{
+    flex: 60%
+}

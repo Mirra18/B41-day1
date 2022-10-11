@@ -1,3 +1,8 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
 background-color: #e3e7eb;
 }
@@ -7,10 +12,24 @@ background-color: #e3e7eb;
     border-radius: 5px;
     padding-left: 220px;
     padding-right: 200px;
-    box-shadow: 0px 0px 6px
+    box-shadow: 0px 0px 6px;
+}
+.body-atas1{
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 220px;
+    padding-right: 200px;
+    box-shadow: 0px 0px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 .body{
-
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-contact{
@@ -18,3 +37,101 @@ background-color: #e3e7eb;
     background-color:rgb(37, 37,37 );
     color : white;
 }
+nav{
+    display: flex;
+    height: 7vh;
+    background-color: rgb(241, 241, 241);
+}
+nav div{
+    width: 50%;
+    display: flex;
+    align-items: 40px;
+}
+nav .left-nav ol{
+    list-style-type: none;
+    margin-left:40px;
+    margin-top: 12px;
+}
+nav .left-nav ol li{
+    display: inline;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+nav .left-nav ol li a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+nav .left-nav img{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+nav .left-nav{
+    padding-left: 90px;
+}
+nav .right-nav{
+    padding-right: 90px;
+}
+nav .right-nav a{
+    background-color:rgb(14, 13, 13) ;
+    color: white;
+    text-decoration: none;
+    padding: 7px 12px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+nav .right-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+.submit{
+    display: flex;
+justify-content: flex-end;
+}
+.contact-form{
+    min-height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form label{
+    font-size: 12;
+    font-weight: 800;
+}
+.contact-form  input,textarea,select{
+    border-radius: 7px;
+    background-color: white;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 7px;
+    box-shadow: 0px 0px 2px black;
+} 
+.container-contact form button{
+    display: flex;
+    justify-content: center;
+}
+.container-contact form textarea{
+    resize: none;
+    height: 100px;
+}
+.submit button{
+    width: 90px;
+    padding: 6px;
+    border-radius: 16px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+
